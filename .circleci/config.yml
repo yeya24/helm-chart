@@ -16,6 +16,7 @@ jobs:
       - run:
           command: ct lint --config test/ct.yaml
 
+  # Add helm v3 chart test
   install-charts:
     machine: true
     steps:
