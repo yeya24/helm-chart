@@ -1,0 +1,5 @@
+validate-maintainers: true
+validate-chart-schema: true
+validate-yaml: true
+check-version-increment: true
+helm-extra-args: --timeout 600
