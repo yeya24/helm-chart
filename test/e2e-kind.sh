@@ -7,6 +7,7 @@ set -o pipefail
 CT_VERSION=v2.4.0
 KIND_VERSION=v0.6.0
 CLUSTER_NAME=dragonfly
+# TODO: make k8s version a parameter
 K8S_VERSION=v1.16.3
 
 run_ct_container() {
